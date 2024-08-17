@@ -1,0 +1,85 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333; /* Dark gray text */
+    background-color: #f4f4f9; /* Light gray background */
+    margin: 0;
+    padding: 0;
+  }
+  /* Header Styles */
+header {
+    background-color: #4a90e2; /* Blue background */
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  header .logo {
+    color: #ffffff; /* White text */
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  header nav {
+    display: flex;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  header nav ul li {
+    margin: 0 1rem;
+  }
+  
+  header nav ul li a {
+    color: #ffffff; /* White text */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+  }
+  
+  header nav ul li a:hover {
+    background-color: #357abd; /* Darker blue on hover */
+  }
+  
+  /* Specific H1 Styles in Header */
+  header h1 {
+    color: #ffffff; /* White text */
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  /* Main Content Styles */
+  main {
+    padding: 2rem;
+  }
+  
+  /* Page Section Styles */
+  h1 {
+    color: #4a90e2; /* Blue text for headings */
+  }
+  
+  p {
+    color: #666; /* Medium gray text for paragraphs */
+  }
+ 
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    header nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    header nav ul li {
+      margin: 0.5rem 0;
+    }
+  }
+  
